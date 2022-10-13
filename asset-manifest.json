@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/music-react/static/css/main.16f99603.css",
-    "main.js": "/music-react/static/js/main.6879c915.js",
+    "main.css": "/music-react/static/css/main.81169bf3.css",
+    "main.js": "/music-react/static/js/main.26ac648c.js",
     "static/media/banner.jpg": "/music-react/static/media/banner.e03a82b05578e7b112ea.jpg",
     "static/media/background.jpg": "/music-react/static/media/background.f4931b92f08dc7233385.jpg",
     "static/media/track.png": "/music-react/static/media/track.bddb5792891bf59741a8.png",
     "static/media/check.png": "/music-react/static/media/check.04d82d533bd7f2af7fce.png",
     "index.html": "/music-react/index.html",
-    "main.16f99603.css.map": "/music-react/static/css/main.16f99603.css.map",
-    "main.6879c915.js.map": "/music-react/static/js/main.6879c915.js.map"
+    "main.81169bf3.css.map": "/music-react/static/css/main.81169bf3.css.map",
+    "main.26ac648c.js.map": "/music-react/static/js/main.26ac648c.js.map"
   },
   "entrypoints": [
-    "static/css/main.16f99603.css",
-    "static/js/main.6879c915.js"
+    "static/css/main.81169bf3.css",
+    "static/js/main.26ac648c.js"
   ]
 }
