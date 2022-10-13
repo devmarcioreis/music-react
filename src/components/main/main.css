@@ -347,6 +347,7 @@
     font-weight: 500;
 }
 
+
 @media (max-width: 768px) {
     .banner {
         height: 220px;
@@ -355,16 +356,16 @@
         font-size: 10px;
     }
     .banner .content .breadCrump i {
-        margin-right: 30px;
+        display: none;
     }
     .banner .content .artist {
         margin-top: 100px;
     }
     .banner .content .artist .leftSection {
-        margin-left: -20px;
+        margin-left: -15px;
     }
     .banner .content .artist .leftSection .name h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
     .banner .content .artist .leftSection .name img {
         width: 15px;
@@ -381,11 +382,10 @@
     .banner .content .artist .rightSection {
         flex-direction: column;
         gap: 10px;
-        margin-right: 40px;
     }
     .banner .content .artist .rightSection a {
         font-size: 10px;
-        margin: 0 15px;
+        margin: 0 10px;
     }
     .mainContainer .menuList {
         padding: 10px;
@@ -395,10 +395,10 @@
         gap: 10px;
     }
     .mainContainer .menuList ul {
-        margin-left: -75px;
+        margin-left: -40px;
     }
     .mainContainer .menuList ul li {
-        margin: 0 7px; 
+        margin: 0 5px; 
     }
     .mainContainer .menuList ul li a {
         font-size: 12px;
@@ -406,8 +406,31 @@
     }
     .mainContainer .menuList p {
         font-size: 10px;
-        margin-right: 75px;
+        margin-right: 50px;
     }
-    
+    .audioList {
+        padding: 10px;
+    }
+    .audioList .title {
+        font-size: 12px;
+    }
+    .audioList .title span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .audioList .songsContainer .song .imgBox {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+    }
+    .audioList .song .section {
+        width: 70%;
+    }
+    .audioList .song .section .songName {
+        width: 100%;
+    }
+    .audioList .song .section .hits p {
+        display: none;
+    }
     
 }
