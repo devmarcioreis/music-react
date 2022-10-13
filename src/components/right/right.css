@@ -1,0 +1,9 @@
+.rightContainer {
+    height: 100vh;
+    width: 100px;
+    min-width: 100px;
+    background: #1d74de1a;
+    z-index: 1;
+    border-left: 1px solid #1d74de3b;
+    transition: all .3s cubic-bezier(0.175,8.885,0.32,1.275);
+}
