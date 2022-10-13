@@ -432,5 +432,22 @@
     .audioList .song .section .hits p {
         display: none;
     }
+    .musicPlayer .songAttributes .top .left i, .musicPlayer .songAttributes .top .meddle i, .musicPlayer .songAttributes .top .right i {
+        font-size: 12px;
+    }
+    .musicPlayer .songAttributes .top .meddle .playPause {
+        width: 50px;
+        height: 10px;
+    }
+    .musicPlayer .songAttributes .bottom {
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .musicPlayer .songAttributes .bottom .progressBar {
+        width: 50%;
+    }
+    .musicPlayer .songAttributes .bottom .currentTime, .musicPlayer .songAttributes .bottom .duration {
+        font-size: 10px;
+    }
     
 }
