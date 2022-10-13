@@ -22,16 +22,6 @@ const AudioList = () => {
     }, []);
 
 
-    const changeFavourite = (id) => {
-        Songs.forEach(song => {
-            if(song.id === id) {
-                song.favourite = !song.favourite;
-            }
-        });
-
-        setSongs([...Songs])
-    }
-
     const setMainSong = (songSrc, imgSrc) => {
         setSong(songSrc);
         setImgage(imgSrc);
@@ -51,9 +41,6 @@ const AudioList = () => {
                     <div className='song'>
                         <div className="imgBox">
                             <img src={song?.imgSrc} alt="" />
-                        </div>
-                        <div className="favourite" onClick={() => changeFavourite(song?.id)}>
-                            {song?.favourite ? (<i><FaHeart /></i>) : (<i><FaRegHeart /></i>)}
                         </div>
                         <div className='section'>
                             <p className='songName'>{song?.artist} <span className='spanArtist'>{song?.songName}</span></p>

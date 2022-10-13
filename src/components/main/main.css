@@ -225,10 +225,6 @@
     height: 100%;
     object-fit: cover;
 }
-.audioList .song .favourite {
-    color: #dd0013;
-    margin-right: 10px;
-}
 .audioList .song .section {
     display: flex;
     justify-content: space-between;
@@ -299,9 +295,6 @@
     margin: 0 15px;
     font-size: 18px;
 }
-.musicPlayer .songAttributes .top .left .loved {
-    color: #dd0013;
-}
 .musicPlayer .songAttributes .top .meddle .playPause {
     width: 30px;
     height: 30px;
@@ -324,16 +317,17 @@
     border: none;
     appearance: none;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
     cursor: pointer;
+    overflow: hidden;
 }
 .musicPlayer .songAttributes .bottom .progressBar::before {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
-    background: #f1f1f1;
-    width: let(--player-played);
+    background: #1D75DE;
+    width: var(--player-played);
     height: 100%;
     border-radius: 10px;
     z-index: 2;

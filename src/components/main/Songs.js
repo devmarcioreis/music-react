@@ -1,17 +1,17 @@
 const Songs = [
     {
       id: 1,
-      artist: "2Pac",
-      songName: "Ghetto Gospel",
-      imgSrc: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/images%2F2pac.jpg?alt=media&token=91e328e6-7b9a-4067-8859-8c5611ad872e",
-      song: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/songs%2F2Pac%20-%20Ghetto%20Gospel.mp3?alt=media&token=9ccc109d-2d52-476d-bc52-d4abe290266d"
-    },
-    {
-      id: 2,
       artist: "A-ha",
       songName: "Crying In The Rain",
       imgSrc: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/images%2Faha.jpg?alt=media&token=47fd0a0e-5d4f-4449-b452-c22aa735a97c",
       song: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/songs%2FA%20ha%20-%20Crying%20In%20The%20Rain.mp3?alt=media&token=b785b777-ae09-465e-a1cc-355cbdfd3187"
+    },
+    {
+      id: 2,
+      artist: "2Pac",
+      songName: "Ghetto Gospel",
+      imgSrc: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/images%2F2pac.jpg?alt=media&token=91e328e6-7b9a-4067-8859-8c5611ad872e",
+      song: "https://firebasestorage.googleapis.com/v0/b/songs-7ada0.appspot.com/o/songs%2F2Pac%20-%20Ghetto%20Gospel.mp3?alt=media&token=9ccc109d-2d52-476d-bc52-d4abe290266d"
     },
     {
       id: 3,
