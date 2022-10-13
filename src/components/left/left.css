@@ -232,7 +232,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .leftMenu {
         width: 64px;
         min-height: 64px;
@@ -255,15 +255,15 @@
         display: none;
     }
     .menuContainer .title {
-        margin-left: -10px;
-        margin-top: 20px;
+       display: none;
     }
     .menuContainer ul li a span {
         display: none;
     }
     .menuContainer ul li a i {
         font-size: 22px;
-        margin-top: 15px;
+        margin-top: 25px;
+        margin-left: -12px;
     }
     .menuContainer ul li::before {
         display: none;

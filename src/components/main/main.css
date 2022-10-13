@@ -346,3 +346,68 @@
     font-size: 12px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .banner {
+        height: 220px;
+    }
+    .banner .content .breadCrump p {
+        font-size: 10px;
+    }
+    .banner .content .breadCrump i {
+        margin-right: 30px;
+    }
+    .banner .content .artist {
+        margin-top: 100px;
+    }
+    .banner .content .artist .leftSection {
+        margin-left: -20px;
+    }
+    .banner .content .artist .leftSection .name h2 {
+        font-size: 25px;
+    }
+    .banner .content .artist .leftSection .name img {
+        width: 15px;
+    }
+    .banner .content .artist .leftSection p {
+        font-size: 12px;
+    }
+    .banner .content .artist .leftSection p i {
+        margin-right: 5px;
+    }
+    .banner .content .artist .leftSection p span {
+        margin-left: 5px;
+    }
+    .banner .content .artist .rightSection {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 40px;
+    }
+    .banner .content .artist .rightSection a {
+        font-size: 10px;
+        margin: 0 15px;
+    }
+    .mainContainer .menuList {
+        padding: 10px;
+    }
+    .mainContainer .menuList {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mainContainer .menuList ul {
+        margin-left: -75px;
+    }
+    .mainContainer .menuList ul li {
+        margin: 0 7px; 
+    }
+    .mainContainer .menuList ul li a {
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .mainContainer .menuList p {
+        font-size: 10px;
+        margin-right: 75px;
+    }
+    
+    
+}
