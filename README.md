@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 Em desenvolvimento: https://devmarcioreis.github.io/music-react/
 
+![ddddd](https://user-images.githubusercontent.com/107413382/195988712-2aae79d6-9f2f-40c5-b51b-f0c278e4ecb2.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
